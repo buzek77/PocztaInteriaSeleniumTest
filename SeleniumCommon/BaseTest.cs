@@ -1,0 +1,179 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Diagnostics;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using System.Text.RegularExpressions;
+using NUnit.Framework;
+using Vulcan.Common2015.SeleniumLib.Helpers;
+using Vulcan.Common2015.SeleniumLib.Pages;
+using log4net;
+
+namespace Vulcan.Common2015.SeleniumLib
+{
+    public class TestName : System.Attribute
+    {
+        public string Name;
+
+        public TestName(string name)
+        {
+            this.Name = name;
+
+        }
+    }
+
+    public abstract class BaseTest
+    {
+        
+        public string Url = ConfigurationManager.AppSettings["Url"];
+        protected static DebugHelper DebugHelper = null; 
+        protected bool TestSuccess = true;
+        protected bool AfterReload = true;
+        protected bool CloseBrowserAfterTest = false;
+
+        protected Page MainPage;
+        protected abstract void OpenBrowser();
+
+        
+
+        [TestFixtureSetUp]
+        public void TestFixtureSetUp()
+        {
+            if (DebugHelper == null) DebugHelper = new DebugHelper();
+            RestoreDb();
+            RecordHelper.StartRecord();
+            Try(OpenBrowser,true);
+        }
+
+        [SetUp]
+        public void SetUp()
+        {
+          
+            Try(() =>
+            {
+                RecordHelper.StartRecord();
+                if (!MainPage.IsBrowserOpen())
+                {
+                    Try(OpenBrowser);
+                    AfterReload = true;
+                    TestSuccess = true;
+                }
+                else
+                {
+                    if (!TestSuccess) // jak zmienimy nunita na nowego do wywalenia nunit 2.6 ma taka flage
+                    {
+                        MainPage.GoToUrl(Url);
+
+                        AfterReload = true;
+                        TestSuccess = true;
+                    }
+                }
+
+            });
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            RecordHelper.StopRecord();
+            if (CloseBrowserAfterTest)
+            {
+                MainPage.CloseBrowser(); 
+            }
+        }
+
+
+        [TestFixtureTearDown]
+        public void CleanupFixture()
+        {
+            MainPage.CloseBrowser();
+        }
+
+        public void RestoreDb()
+        {
+            if (Convert.ToBoolean(ConfigurationManager.AppSettings["restoreDatabase"]))
+            {
+               // Helper.DebugLog("Przywracanie bazy danych");
+                try
+                {
+                    var snapshotRestore = ConfigurationManager.AppSettings["restoreFromSnapshot"];
+                    if (snapshotRestore != null)
+                    {
+                        DBHelper.Setup(Convert.ToBoolean(snapshotRestore));
+                    }
+                    else
+                    {
+                        DBHelper.Setup();
+                    }
+                }
+                catch (Exception e)
+                {
+                    //Helper.ReportLog(ReportLevel.Error, "Przywracanie bazy danych nie powiodlo sie " + e);
+                    RecordHelper.StopRecord();
+                    Assert.Fail();
+                }
+            }
+        }
+
+        public void Wyloguj()
+        {
+            CloseBrowserAfterTest = true;
+            MainPage.CloseBrowser();
+
+        }
+
+        public void Try(Action testCode, bool TestFixtureSetUp = false)
+        {
+            StackTrace st = new StackTrace();
+            StackFrame sf = st.GetFrame(1);
+            bool setup = true;
+            string testName = "SetUp";
+            var method = sf.GetMethod();
+
+            if(DebugHelper.NunitTestAtrributsTypes.Select(type => method.GetCustomAttributes(type, true)).Count(test => test.Length == 1) == 1)
+            {
+                setup = false;
+                TestName attr = (TestName)method.GetCustomAttributes(typeof(TestName), true)[0];
+                testName = attr.Name;
+                RecordHelper.CurrentTestName = testName;
+                DebugHelper.Logger.Info("Uruchamianie testu :" + testName);
+            }
+
+
+            try
+            {
+                testCode();
+                if (!setup)
+                {
+                    DebugHelper.Logger.Info("Sukces testu :" + testName);
+                }
+            }
+            catch (Exception ex)
+            {
+                if (TestFixtureSetUp && Page.CurrentWebDriver != null)
+                {
+                    Page.CurrentWebDriver.Close();
+                }
+                TestFail(ex, method);
+            }
+        }
+
+        public void TestFail(Exception e, MethodBase testName)
+        {
+            
+            TestSuccess = false;
+            //Helper.ReportLog(ReportLevel.Error, Regex.Replace(e.ToString(), "<[^>]+>", string.Empty), testName);
+           // Helper.FailLog("Test " + testName + " zakończony niepowodzeniem");
+          
+            DebugHelper.Logger.Info("Fail testu :" + testName + "ex : " + e);
+            if (MainPage != null)
+            {
+                MainPage.TakeScreenshot();
+            }
+            RecordHelper.StopRecord(false);
+            Assert.Fail(e.Message);
+        }
+    }
+}

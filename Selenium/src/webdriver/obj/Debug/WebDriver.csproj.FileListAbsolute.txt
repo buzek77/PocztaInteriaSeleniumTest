@@ -1,0 +1,1 @@
+C:\Users\Kwozniak\Documents\Visual Studio 2012\Projects\PocztaInteriaSeleniumTest\Selenium\src\webdriver\obj\Debug\WebDriver.csprojResolveAssemblyReference.cache

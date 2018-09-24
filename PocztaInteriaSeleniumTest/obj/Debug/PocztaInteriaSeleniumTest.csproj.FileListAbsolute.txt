@@ -1,0 +1,32 @@
+c:\users\kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\obj\Debug\PocztaInteriaSeleniumTest.csprojResolveAssemblyReference.cache
+c:\users\kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\PocztaInteriaSeleniumTest.dll
+c:\users\kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\PocztaInteriaSeleniumTest.pdb
+c:\users\kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\nunit.framework.dll
+c:\users\kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+c:\users\kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\ThoughtWorks.Selenium.Core.dll
+c:\users\kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\WebDriver.dll
+c:\users\kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\WebDriver.Support.dll
+c:\users\kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\obj\Debug\PocztaInteriaSeleniumTest.dll
+c:\users\kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\obj\Debug\PocztaInteriaSeleniumTest.pdb
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\PocztaInteriaSeleniumTest.dll.config
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\Vulcan.Common2015.SeleniumLib.dll
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\log4net.dll
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\Vulcan.Common2015.SeleniumLib.pdb
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\PocztaInteriaPage.dll
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\PocztaInteriaPage.pdb
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\PocztaInteriaSeleniumTest.dll.config
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\PocztaInteriaSeleniumTest.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\PocztaInteriaSeleniumTest.pdb
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\nunit.framework.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\PocztaInteriaPage.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\ThoughtWorks.Selenium.Core.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\Vulcan.Common2015.SeleniumLib.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\WebDriver.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\WebDriver.Support.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\log4net.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\PocztaInteriaPage.pdb
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\bin\Debug\Vulcan.Common2015.SeleniumLib.pdb
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\obj\Debug\PocztaInteriaSeleniumTest.csprojResolveAssemblyReference.cache
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\obj\Debug\PocztaInteriaSeleniumTest.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaSeleniumTest\obj\Debug\PocztaInteriaSeleniumTest.pdb

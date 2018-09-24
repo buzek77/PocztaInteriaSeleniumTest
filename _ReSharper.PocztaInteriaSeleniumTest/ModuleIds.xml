@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="3B1F94E4-836F-4D25-B6CC-F90E9E7B34B1" ModuleId="PocztaInteriaSeleniumTest" />
+  <Module PersistentId="F6A50E1C-AB44-4F77-9C9F-7F3D5FC75BA3" ModuleId="Vulcan.Common2015.SeleniumLib" />
+  <Module PersistentId="B9B029BE-DFE2-4E5A-9D4C-3E9CE87E6B37" ModuleId="PocztaInteriaPage" />
+</Modules>

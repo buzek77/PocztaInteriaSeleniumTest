@@ -1,0 +1,26 @@
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\obj\Debug\PocztaInteriaPages.csprojResolveAssemblyReference.cache
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\PocztaInteriaPage.dll
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\PocztaInteriaPage.pdb
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\nunit.framework.dll
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\Vulcan.Common2015.SeleniumLib.dll
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\WebDriver.dll
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\WebDriver.Support.dll
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\log4net.dll
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\Vulcan.Common2015.SeleniumLib.pdb
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\obj\Debug\PocztaInteriaPage.dll
+C:\Users\Kwozniak\documents\visual studio 2012\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\obj\Debug\PocztaInteriaPage.pdb
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\PocztaInteriaPage.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\PocztaInteriaPage.pdb
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\nunit.framework.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\ThoughtWorks.Selenium.Core.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\Vulcan.Common2015.SeleniumLib.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\WebDriver.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\WebDriver.Support.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\log4net.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\bin\Debug\Vulcan.Common2015.SeleniumLib.pdb
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\obj\Debug\PocztaInteriaPages.csprojResolveAssemblyReference.cache
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\obj\Debug\PocztaInteriaPage.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\PocztaInteriaPage\obj\Debug\PocztaInteriaPage.pdb

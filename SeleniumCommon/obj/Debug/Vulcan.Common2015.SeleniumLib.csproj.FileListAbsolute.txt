@@ -1,0 +1,22 @@
+C:\Users\Kwozniak\Documents\Visual Studio 2012\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\bin\Debug\Vulcan.Common2015.SeleniumLib.dll
+C:\Users\Kwozniak\Documents\Visual Studio 2012\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\bin\Debug\Vulcan.Common2015.SeleniumLib.pdb
+C:\Users\Kwozniak\Documents\Visual Studio 2012\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\bin\Debug\log4net.dll
+C:\Users\Kwozniak\Documents\Visual Studio 2012\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\bin\Debug\nunit.framework.dll
+C:\Users\Kwozniak\Documents\Visual Studio 2012\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\Users\Kwozniak\Documents\Visual Studio 2012\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Users\Kwozniak\Documents\Visual Studio 2012\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\bin\Debug\WebDriver.dll
+C:\Users\Kwozniak\Documents\Visual Studio 2012\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\bin\Debug\WebDriver.Support.dll
+C:\Users\Kwozniak\Documents\Visual Studio 2012\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\obj\Debug\Vulcan.Common2015.SeleniumLib.csprojResolveAssemblyReference.cache
+C:\Users\Kwozniak\Documents\Visual Studio 2012\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\obj\Debug\Vulcan.Common2015.SeleniumLib.dll
+C:\Users\Kwozniak\Documents\Visual Studio 2012\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\obj\Debug\Vulcan.Common2015.SeleniumLib.pdb
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\bin\Debug\Vulcan.Common2015.SeleniumLib.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\bin\Debug\Vulcan.Common2015.SeleniumLib.pdb
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\bin\Debug\log4net.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\bin\Debug\nunit.framework.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\bin\Debug\ThoughtWorks.Selenium.Core.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\bin\Debug\WebDriver.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\bin\Debug\WebDriver.Support.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\obj\Debug\Vulcan.Common2015.SeleniumLib.csprojResolveAssemblyReference.cache
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\obj\Debug\Vulcan.Common2015.SeleniumLib.dll
+E:\VULCAN\Projects\PocztaInteriaSeleniumTest\SeleniumCommon\obj\Debug\Vulcan.Common2015.SeleniumLib.pdb
